@@ -60,7 +60,7 @@ export function cancelOrder(tradeNo) {
 
       data: {
 
-        order: tradeNo
+        trade_no: tradeNo
 
       }
 
@@ -127,4 +127,5 @@ export function cancelOrder(tradeNo) {
   });
 
 }
+
 
